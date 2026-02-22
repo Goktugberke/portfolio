@@ -6,32 +6,32 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Languages",
     accent: "cyan",
-    skills: ["Java", "TypeScript", "JavaScript", "Python", "SQL", "HTML/CSS"],
+    skills: ["Python", "Java", "C", "JavaScript"],
   },
   {
-    name: "Backend",
+    name: "AI / Machine Learning",
+    accent: "rose",
+    skills: ["Machine Learning", "Deep Learning", "NLP", "CNN", "ANN", "RAG", "MCP"],
+  },
+  {
+    name: "Backend & APIs",
     accent: "blue",
-    skills: ["Spring Boot", "Spring Security", "Spring Data JPA", "NestJS", "Django", "REST API", "JWT", "OAuth2"],
+    skills: ["Spring Boot", "FastAPI", "REST API", "OOP", "Design Patterns"],
   },
   {
     name: "Frontend",
     accent: "violet",
-    skills: ["Angular", "React", "Next.js"],
+    skills: ["React", "HTML/CSS"],
   },
   {
-    name: "Database",
-    accent: "emerald",
-    skills: ["PostgreSQL", "MySQL", "MongoDB", "Prisma"],
-  },
-  {
-    name: "DevOps & Tools",
+    name: "Embedded Systems",
     accent: "orange",
-    skills: ["Docker", "Kubernetes", "Git", "GitLab CI", "Azure", "Swagger", "Postman", "CI/CD"],
+    skills: ["STM32", "CAN-BUS", "Embedded C", "Nextion Editor"],
   },
   {
-    name: "AI / LLM",
-    accent: "rose",
-    skills: ["LangChain", "RAG Workflows", "MCP", "Tool Agents"],
+    name: "DevOps & Data",
+    accent: "emerald",
+    skills: ["Git", "GitLab", "Azure", "CI/CD", "Pandas", "Agile"],
   },
 ];
 

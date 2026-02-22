@@ -1,20 +1,20 @@
-import { Code, Server, Brain } from "lucide-react";
+import { Brain, Code, Cpu } from "lucide-react";
 import type { Service } from "../types";
 
 export const services: Service[] = [
   {
-    title: "Backend Development",
-    icon: Server,
-    desc: "Scalable REST APIs with Spring Boot, NestJS, and Django — covering auth, database design, Docker, and CI/CD pipelines.",
-  },
-  {
-    title: "Frontend Development",
-    icon: Code,
-    desc: "Responsive, component-driven interfaces with Angular, React, and Next.js, built for performance and long-term maintainability.",
-  },
-  {
-    title: "AI Integration",
+    title: "AI & ML Development",
     icon: Brain,
-    desc: "LangChain-powered RAG pipelines, MCP-based tool agents, and LLM-assisted feature development for production systems.",
+    desc: "End-to-end AI systems with machine learning, deep learning, RAG pipelines, MCP integration and real-time prediction APIs.",
+  },
+  {
+    title: "Software Development",
+    icon: Code,
+    desc: "Scalable backend services with Spring Boot and FastAPI, responsive frontends with React, and full-stack integration.",
+  },
+  {
+    title: "Embedded Systems",
+    icon: Cpu,
+    desc: "STM32-based embedded control software, CAN-BUS communication and telemetry infrastructure for engineering and TEKNOFEST projects.",
   },
 ];
