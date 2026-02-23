@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Linkedin, Github, Send, MapPin, CheckCircle2 } from "lucide-react";
-import SectionTitle from "./SectionTitle";
+import { SiMedium } from "react-icons/si"; import SectionTitle from "./SectionTitle";
 import { PROFILE } from "@/data/profile";
 import { fadeUp, stagger, slideInLeft, slideInRight } from "@/lib/animations";
 
@@ -139,12 +139,13 @@ export default function Contact() {
                   external: true,
                 },
                 {
-                  href: undefined,
-                  icon: MapPin,
-                  label: "Location",
-                  value: PROFILE.location,
-                  color: "text-emerald-600 dark:text-emerald-400",
-                  bg: "bg-emerald-500/10 border-emerald-500/20",
+                  href: PROFILE.medium,
+                  icon: SiMedium,
+                  label: "Medium",
+                  value: "gungorengoktugberke",
+                  color: "text-zinc-700 dark:text-zinc-300",
+                  bg: "bg-zinc-200/60 dark:bg-zinc-700/40 border-zinc-300 dark:border-zinc-600/50 group-hover:bg-zinc-200 dark:group-hover:bg-zinc-700/70",
+                  external: true,
                 },
               ].map(({ href, icon: Icon, label, value, color, bg, external }) => {
                 const Wrapper = href ? motion.a : motion.div;
