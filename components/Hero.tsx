@@ -161,7 +161,7 @@ export default function Hero() {
             transition={{ delay: 0.9, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="absolute right-0 md:-right-4 top-12 px-3.5 py-2 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900/90 backdrop-blur-md shadow-xl text-sm font-semibold text-zinc-700 dark:text-zinc-200 whitespace-nowrap"
           >
-            <span className="text-blue-600 dark:text-blue-400">Spring Boot</span> Expert
+            <span className="text-blue-600 dark:text-blue-400">Machine Learning</span> Expert
           </motion.div>
 
           {/* Floating badge: Experience */}
@@ -171,7 +171,7 @@ export default function Hero() {
             transition={{ delay: 1.1, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="absolute left-0 md:-left-4 bottom-12 px-3.5 py-2 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900/90 backdrop-blur-md shadow-xl text-sm font-semibold text-zinc-700 dark:text-zinc-200 whitespace-nowrap"
           >
-            💼 <span className="text-violet-600 dark:text-violet-400">1+</span> Year Experience
+            <span className="text-blue-600 dark:text-blue-400">Teknofest AI</span> Team Lead
           </motion.div>
         </motion.div>
       </div>

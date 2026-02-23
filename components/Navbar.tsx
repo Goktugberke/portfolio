@@ -51,11 +51,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
           ? "bg-white/80 dark:bg-zinc-950/80 backdrop-blur-xl border-b border-zinc-200 dark:border-white/[0.06] shadow-sm dark:shadow-2xl shadow-black/5 dark:shadow-black/30"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
         {/* Logo */}
@@ -68,7 +67,7 @@ export default function Navbar() {
           }}
         >
           <div className="size-8 rounded-lg bg-gradient-to-br from-blue-500 to-violet-600 grid place-items-center text-white font-black text-sm shadow-lg shadow-blue-500/25 group-hover:shadow-blue-500/50 transition-shadow duration-300">
-            YE
+            GBG
           </div>
           <span className="text-zinc-900 dark:text-white font-bold hidden sm:block tracking-tight">
             {PROFILE.name}
@@ -81,11 +80,10 @@ export default function Navbar() {
             <button
               key={id}
               onClick={() => handleNavClick(id)}
-              className={`relative px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 cursor-pointer ${
-                active === id
+              className={`relative px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 cursor-pointer ${active === id
                   ? "text-zinc-900 dark:text-white bg-zinc-100 dark:bg-white/[0.07] border border-zinc-200 dark:border-white/[0.08]"
                   : "text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white"
-              }`}
+                }`}
             >
               {label}
             </button>
@@ -138,11 +136,10 @@ export default function Navbar() {
                 <button
                   key={id}
                   onClick={() => handleNavClick(id)}
-                  className={`px-4 py-3 rounded-xl text-sm font-medium text-left transition-all duration-200 cursor-pointer ${
-                    active === id
+                  className={`px-4 py-3 rounded-xl text-sm font-medium text-left transition-all duration-200 cursor-pointer ${active === id
                       ? "bg-zinc-100 dark:bg-white/[0.07] text-zinc-900 dark:text-white border border-zinc-200 dark:border-white/[0.08]"
                       : "text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white hover:bg-zinc-50 dark:hover:bg-white/[0.04]"
-                  }`}
+                    }`}
                 >
                   {label}
                 </button>

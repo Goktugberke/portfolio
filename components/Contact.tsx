@@ -124,7 +124,7 @@ export default function Contact() {
                   href: PROFILE.linkedin,
                   icon: Linkedin,
                   label: "LinkedIn",
-                  value: "yunus-emre-senyigit",
+                  value: "goktug-berke-gungoren",
                   color: "text-blue-600 dark:text-blue-400",
                   bg: "bg-blue-500/10 border-blue-500/20 group-hover:bg-blue-500/20",
                   external: true,
@@ -133,7 +133,7 @@ export default function Contact() {
                   href: PROFILE.github,
                   icon: Github,
                   label: "GitHub",
-                  value: "YunussEmree",
+                  value: "Goktugberke",
                   color: "text-zinc-700 dark:text-zinc-300",
                   bg: "bg-zinc-200/60 dark:bg-zinc-700/40 border-zinc-300 dark:border-zinc-600/50 group-hover:bg-zinc-200 dark:group-hover:bg-zinc-700/70",
                   external: true,
@@ -150,9 +150,9 @@ export default function Contact() {
                 const Wrapper = href ? motion.a : motion.div;
                 const props = href
                   ? {
-                      href,
-                      ...(external ? { target: "_blank", rel: "noopener noreferrer" } : {}),
-                    }
+                    href,
+                    ...(external ? { target: "_blank", rel: "noopener noreferrer" } : {}),
+                  }
                   : {};
                 return (
                   <Wrapper

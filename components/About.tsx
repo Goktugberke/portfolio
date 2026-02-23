@@ -20,10 +20,7 @@ export default function About() {
           viewport={{ once: true, margin: "-80px" }}
           className="max-w-2xl text-zinc-600 dark:text-zinc-400 text-lg leading-relaxed mb-14"
         >
-          I&apos;m a quick learner who collaborates closely to create efficient, scalable, and
-          user-friendly solutions. Passionate about backend architecture and building systems that{" "}
-          <span className="text-zinc-900 dark:text-zinc-200 font-medium">actually work</span> in production. Let&apos;s
-          build something great together.
+          I&apos;build production-ready AI and software systems, from machine learning models to scalable backend services and embedded control software. I focus on writing clean, maintainable code and designing architectures that are reliable and efficient. Passionate about solving real-world problems with AI and engineering systems that deliver real impact.
         </motion.p>
 
         <motion.div
