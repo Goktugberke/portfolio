@@ -3,7 +3,7 @@ import type { Profile } from "../types";
 export const PROFILE: Profile = {
   name: "Göktuğ Berke Güngören",
   role: "AI & Software Developer",
-  bio: "Computer Engineering student specializing in AI, Machine Learning and Software Engineering. Experienced in building end-to-end AI systems, embedded control software, and scalable backend services with Python, Java and modern AI frameworks.",
+  bio: "New-graduate Computer Engineer specializing in AI, Machine Learning and Software Engineering. I build end-to-end AI systems, scalable full-stack web applications and embedded control software. Experienced with MCP, RAG, CI/CD, Azure and modern software engineering practices, with active roles across multidisciplinary TEKNOFEST teams (electric vehicle, unmanned marine vehicle and healthcare AI).",
   location: "Antalya, Turkey",
   email: "gungorengoktugberke@gmail.com",
   github: "https://github.com/Goktugberke",

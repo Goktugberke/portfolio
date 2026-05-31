@@ -29,7 +29,8 @@ export const experiences: Experience[] = [
     points: [
       "Developed the SarıtayGPT AI chatbot using OpenAI, MCP and RAG technologies.",
       "Worked across backend, frontend, DevOps and AI integration domains.",
-      "Implemented CI/CD pipelines and Azure-based authentication systems.",
+      "Integrated CI/CD pipelines and Azure-based data storage systems.",
+      "Built a scalable, resilient system by integrating Docker and Kubernetes.",
       "Gained hands-on experience in Agile development workflows.",
     ],
   },

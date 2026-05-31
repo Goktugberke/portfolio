@@ -11,12 +11,24 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "AI / Machine Learning",
     accent: "rose",
-    skills: ["Machine Learning", "Deep Learning", "NLP", "CNN", "ANN", "RAG", "MCP"],
+    skills: [
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "CNN",
+      "ANN",
+      "Transformers",
+      "Attention",
+      "PyTorch",
+      "RAG",
+      "GraphRAG",
+      "MCP",
+    ],
   },
   {
-    name: "Backend & APIs",
+    name: "Backend & Architecture",
     accent: "blue",
-    skills: ["Spring Boot", "FastAPI", "REST API", "OOP", "Design Patterns"],
+    skills: ["Spring Boot", "FastAPI", "REST API", "Microservices", "OOP", "Design Patterns"],
   },
   {
     name: "Frontend",
@@ -26,12 +38,24 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Embedded Systems",
     accent: "orange",
-    skills: ["STM32", "CAN-BUS", "Embedded C", "Nextion Editor"],
+    skills: ["STM32", "CAN-BUS", "Embedded C", "LoRa", "Nextion", "Raspberry Pi", "Arduino"],
   },
   {
     name: "DevOps & Data",
     accent: "emerald",
-    skills: ["Git", "GitLab", "Azure", "CI/CD", "Pandas", "Agile"],
+    skills: [
+      "Docker",
+      "Kubernetes",
+      "Kafka",
+      "RabbitMQ",
+      "PostgreSQL",
+      "Neo4j",
+      "Git",
+      "GitLab",
+      "Azure",
+      "CI/CD",
+      "Agile",
+    ],
   },
 ];
 
